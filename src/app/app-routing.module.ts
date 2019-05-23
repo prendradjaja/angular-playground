@@ -9,7 +9,7 @@ import { Sandbox4Component } from "./sandbox4/sandbox4.component";
 import { Sandbox5Component } from "./sandbox5/sandbox5.component";
 import { Sandbox6Component } from "./sandbox6/sandbox6.component";
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: "", component: TableOfContentsComponent },
   { path: "s/1", component: Sandbox1Component },
   { path: "s/2", component: Sandbox2Component },
