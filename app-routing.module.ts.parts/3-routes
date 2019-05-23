@@ -2,3 +2,5 @@
   { path: "s/2", component: Sandbox2Component },
   { path: "s/3", component: Sandbox3Component },
   { path: "s/4", component: Sandbox4Component },
+  { path: "s/5", component: Sandbox5Component },
+  { path: "s/6", component: Sandbox6Component },
