@@ -1,3 +1,7 @@
 <ul>
-  <li><a routerLink="/s/5">5: Observables and Subjects</a></li>
+  <li *ngFor="let sandbox of sandboxes">
+    <a [routerLink]="sandbox.path">
+      {{sandbox.path}}. {{sandboxNames[sandbox.number]}}
+    </a>
+  </li>
 </ul>

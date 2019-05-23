@@ -19,13 +19,13 @@ export class Sandbox5Component implements OnInit {
     // observable.subscribe(console.log);
     // ...however, calling .subscribe multiple times WILL speed up this loop
 
-    console.log("subject can be multicast");
-    const subject = someService.getSubject();
-    setTimeout(() => {
-      subject.subscribe(console.log);
-      subject.subscribe(console.log);
-      subject.subscribe(console.log);
-    }, 1000);
+    // console.log("subject can be multicast");
+    // const subject = someService.getSubject();
+    // setTimeout(() => {
+    //   subject.subscribe(console.log);
+    //   subject.subscribe(console.log);
+    //   subject.subscribe(console.log);
+    // }, 1000);
   }
 }
 
